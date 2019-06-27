@@ -17,7 +17,7 @@ class App extends React.Component {
         q: term,
         marResult: 5,
         part: "snippet",
-        key: "AIzaSyB_qnwH5HxTzpSQQpamcnpAdn6-dYvi-X4"
+        key: "AIzaSyB_qnwH5HxTzpSQQpamcnpAdn6-dYvi-X4"   //Disabled Ex API
       }
     });
 
