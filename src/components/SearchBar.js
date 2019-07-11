@@ -4,7 +4,6 @@ class SearchBar extends React.Component {
   state = { term: "" };
   onInputChange = event => {
     this.setState({ term: event.target.value });
-    // console.log(event.target.value);
   };
   onFromSubmit = event => {
     event.preventDefault();
@@ -17,6 +16,7 @@ class SearchBar extends React.Component {
         <form onSubmit={this.onFromSubmit} className="ui form">
           <div className="field">
             <label>Video Search</label>
+      {//Making a controled form}
             <input
               type="text"
               value={this.state.term}
